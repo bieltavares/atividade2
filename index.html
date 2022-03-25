@@ -21,21 +21,73 @@
 
                 body{
                         width: 1000px;
-                        margin: 0 auto;
+                        margin: 10px auto;
+                        border: 1px solid #000;
+                        border-radius: 5px;
+                        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                
+                        /* opções de bordas também é dashed, dotted,double */
+                                    
                 }
+
 
                 h2{
                         color:#A98564;
+
+                        font-style: italic;
+                        padding: 10px;
                 }       
 
                 h3{
                         color: #A98564;
+                        padding: 10px;
                 }
 
                 #dicas{
-                        color: gray;
+                        color: red ;
                 }
                 
+                li{
+                        list-style-type: square;
+
+                }
+
+                a{
+
+                        color: red;
+                        text-decoration: none ;
+                }
+
+                a:hover{
+                        color: rgb(38, 0, 255);
+                        font-weight: bold;
+                }
+
+                small{
+                        margin: 0 20px;
+                }
+
+                img {
+                      margin: 0 auto;  
+                      display: block;
+                      width: 200px;
+                }  
+                
+                html{
+                        background-color: #fff;
+
+                }
+
+                body{
+                        background-color: #fff;
+                }
+
+                hr{
+                        border-color: black;
+                        height: 1px ;
+
+                }
+
 
 
 
@@ -45,11 +97,11 @@
 </head>
 <body>
         <a href="https://github.com/" target="_blank" ;>
-                <img src="img/LogoGitHub.png" alt="Logo do Github" height="200px" width="">
+                <img src="img/LogoGitHub.png" alt="Logo do Github" >
         </a>
     <!-- Height é ref Altura & Width é ref largura -->
     
-        <h1 style="color:#fff;   background-color:black;  padding:15px; ">  Conhecendo o GITHUB  </h1>
+        <h1 style="color:#fff;   background-color:black;  padding:15px ; letter-spacing: 5px; ">  Conhecendo o GITHUB  </h1>
         <h2>  Realizando COMMITS   </h2>
 <ul>
         <li>Utilizar os nomes de Commits objetivos e curtos até 50 caracteres                                                </li>
@@ -72,7 +124,7 @@
 <h3 id="alternativas"> Alternativas ao GITHUB </h3>
 <ul>
         <a href="https://about.gitlab.com/"     target="_blank">
-                <li> GitLab </li>
+                <li>  GitLab </li>
         </a>  
         <a href="https://bitbucket.org/"        target="_blank">          
                 <li> BitBucket </li>
